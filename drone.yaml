@@ -16,7 +16,7 @@ steps:
     repo: karllevans/drone-python-starter
     auto_tag: true
 - name: my custom plugin
-  image: karllevans/drone-simple-plugin
+  image: luisredda/drone-simple-plugin
   settings:
     action: deploy
     project: myproject
